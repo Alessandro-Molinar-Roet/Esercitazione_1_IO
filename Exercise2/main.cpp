@@ -36,8 +36,8 @@ int main()
     outputFile << "# N Mean" << "\n";
 
     // read file row
-    double val = 0.;
-    double sumValue = 0.;
+    double val = 0.0;
+    double sumValue = 0.0;
     int counter = 1;
 
     while(dataFile >> val)
